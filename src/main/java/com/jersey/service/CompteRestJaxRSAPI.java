@@ -24,7 +24,6 @@ public class CompteRestJaxRSAPI {
         return compteRepository.findAll();
     }
 
-    // Récupérer un compte par son identifiant
     @Path("/comptes/{id}")
     @GET
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
